@@ -1,0 +1,9 @@
+@import "react-toolbox/lib/tabs/theme.css";
+
+.tabs nav {
+  background-color: #9A44C1 !important;
+}
+
+.tab {
+  background-color: #dddddd;
+}

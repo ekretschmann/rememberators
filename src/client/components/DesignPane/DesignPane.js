@@ -14,6 +14,9 @@ import 'brace/ext/language_tools';
 class DesignPane extends React.Component {
 
 
+    state = {
+        value: '<xml></xml>'
+    };
 
     onChange = (newValue) => {
         console.log('change', newValue);
@@ -27,6 +30,7 @@ class DesignPane extends React.Component {
                 {this.state.value}
                 <div style={{ textAlign: 'center'}}>
                     {/*<div className="design-request">*/}
+
                     <AceEditor
                         style={{width: '98%', marginLeft: '1%'}}
                         mode="xml"

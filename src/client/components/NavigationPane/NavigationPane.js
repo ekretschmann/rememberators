@@ -5,8 +5,7 @@ import theme from './NavigationPane.css';
 
 class NavigationPane extends React.Component {
     state = {
-        index: 0,
-        value: '<xml></xml>'
+        index: 0
     };
 
     handleInverseTabChange = (index) => {
